@@ -1,0 +1,62 @@
+
+    ○
+    │╲
+    │ ○
+    ○ ░
+    ░    gitleaks
+
+Finding:     -----BEGIN RSA PRIVATE KEY-----
+MIIBOgIBAAJBAKj34GkxFhD90vcNLYLInFEX6Ppy1tPf9Cnzj4p4WGeKLs1Pt8Qu
+KUp...
+Secret:      -----BEGIN RSA PRIVATE KEY-----
+MIIBOgIBAAJBAKj34GkxFhD90vcNLYLInFEX6Ppy1tPf9Cnzj4p4WGeKLs1Pt8Qu
+KUp...
+RuleID:      private-key
+Entropy:     5.877638
+File:        deployment.key
+Line:        1
+Commit:      bc17b7ddc46f46fff175aed55d68e11bb48166cc
+Author:      Grzegorz Siewruk
+Email:       gsiewruk@gmail.com
+Date:        2023-11-15T12:52:32Z
+Fingerprint: bc17b7ddc46f46fff175aed55d68e11bb48166cc:deployment.key:private-key:1
+
+Finding:     -----BEGIN RSA PRIVATE KEY-----
+MIIBOgIBAAJBAKj34GkxFhD90vcNLYLInFEX6Ppy1tPf9Cnzj4p4WGeKLs1Pt8Qu
+KUp...
+Secret:      -----BEGIN RSA PRIVATE KEY-----
+MIIBOgIBAAJBAKj34GkxFhD90vcNLYLInFEX6Ppy1tPf9Cnzj4p4WGeKLs1Pt8Qu
+KUp...
+RuleID:      private-key
+Entropy:     5.877638
+File:        deployment2.key
+Line:        1
+Commit:      de9d7b8cb63bd7ae741ec5c9e23891b71709bc28
+Author:      Grzegorz Siewruk
+Email:       gsiewruk@gmail.com
+Date:        2023-11-15T12:49:39Z
+Fingerprint: de9d7b8cb63bd7ae741ec5c9e23891b71709bc28:deployment2.key:private-key:1
+
+Finding:     "private_key": "-----BEGIN PRIVATE KEY-----\nlRsGbRO/1A5LiQHjuR5SASDASDAiSMNeOYqna2R+HEalBoyISASDASD1Tgkj\n4CC02Uux+...-\n",
+Secret:      -----BEGIN PRIVATE KEY-----\nlRsGbRO/1A5LiQHjuR5SASDASDAiSMNeOYqna2R+HEalBoyISASDASD1Tgkj\n4CC02Uux+...
+RuleID:      private-key
+Entropy:     5.917220
+File:        awscredentials.json
+Line:        5
+Commit:      bc17b7ddc46f46fff175aed55d68e11bb48166cc
+Author:      Grzegorz Siewruk
+Email:       gsiewruk@gmail.com
+Date:        2023-11-15T12:52:32Z
+Fingerprint: bc17b7ddc46f46fff175aed55d68e11bb48166cc:awscredentials.json:private-key:5
+
+Finding:     "private_key_id": "002ac3c1623rdewc7bb13f6b10e6"
+Secret:      002ac3c1623rdewc7bb13f6b10e6
+RuleID:      generic-api-key
+Entropy:     3.645593
+File:        awscredentials.json
+Line:        4
+Commit:      bc17b7ddc46f46fff175aed55d68e11bb48166cc
+Author:      Grzegorz Siewruk
+Email:       gsiewruk@gmail.com
+Date:        2023-11-15T12:52:32Z
+Fingerprint: bc17b7ddc46f46fff175aed55d68e11bb48166cc:awscredentials.json:generic-api-key:4
